@@ -12,14 +12,17 @@ html, body {
 }
 
 ol, ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column
+}
+li {
     display: grid;
     text-align: center;
     grid-column-start: 3;
     grid-column-end: four;
     grid-row-start: row1-start;
     grid-row-end: last-line;
-}
-li {
     padding-bottom: 1rem;
 }
 h1 {
