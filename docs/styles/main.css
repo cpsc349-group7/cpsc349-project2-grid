@@ -12,7 +12,12 @@ html, body {
 }
 
 ol, ul {
-    margin: 0 0 0 0;
+    display: grid;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: four;
+    grid-row-start: row1-start;
+    grid-row-end: last-line;
 }
 li {
     padding-bottom: 1rem;
@@ -46,17 +51,16 @@ article .margin {
     margin-bottom: 100vh;
 }
 nav {
-    display: flex;
-    width: 100%;
-    top: 0;
-    left: 0;
+    display: grid;
+    grid-column-start: auto;
+    grid-column-end: auto;
     background: #50A3A4;
-    position: fixed;
     padding: 30px;
 }
 nav a {
     display: inline-flex;
     padding: 20px 30px;
+    text-align: center;
     color: #fff;
     text-decoration: none;
 }

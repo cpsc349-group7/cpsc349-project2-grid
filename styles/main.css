@@ -12,7 +12,12 @@ html, body {
 }
 
 ol, ul {
-    margin: 0 0 0 0;
+    display: grid;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: four;
+    grid-row-start: row1-start;
+    grid-row-end: last-line;
 }
 li {
     padding-bottom: 1rem;
