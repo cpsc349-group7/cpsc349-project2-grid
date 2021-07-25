@@ -18,6 +18,7 @@ ol, ul {
     grid-column-end: four;
     grid-row-start: row1-start;
     grid-row-end: last-line;
+}
 li {
     padding-bottom: 1rem;
 }
