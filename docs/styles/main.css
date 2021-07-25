@@ -121,10 +121,13 @@ footer {
 
 .aboutContent {
     display: grid;
-    text-align: left;
+    text-align: center;
     padding-top: 4rem;
     padding-right: 4rem;
     padding-left: 4rem;
+}
+.websiteHeader{
+    text-align: center;
 }
 
 .aboutCard {
