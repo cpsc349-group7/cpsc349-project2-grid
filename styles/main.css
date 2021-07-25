@@ -137,7 +137,6 @@ footer {
 /* ************ */
 
 .petContent {
-    text-align: center;
     height: auto;
     max-width: 30rem;
     object-fit: cover;
@@ -145,11 +144,12 @@ footer {
 }
 
 .infoPadding {
-    text-align: left;
+    display: grid;
+    grid-column: 3 / span 2;
+    grid-row: third-line / 4;
     padding-left: 2rem;
 }
 
 .petTitle {
-    text-align: right;
     font-size: large;
 }
