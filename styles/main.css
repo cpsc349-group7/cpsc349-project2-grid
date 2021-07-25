@@ -57,7 +57,7 @@ nav {
     display: grid;
     grid-column-start: auto;
     grid-column-end: auto;
-    background: #50A3A4;
+    background: #c002da;
     padding: 30px;
 }
 nav a {
@@ -81,7 +81,7 @@ header {
 footer {
     display: flex;
     width: 100%;
-    background: #50A3A4;
+    background: #c002da;
     padding: 30px;
 }
 /* *************************************************************** */
