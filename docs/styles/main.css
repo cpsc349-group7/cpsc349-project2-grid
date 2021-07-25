@@ -128,7 +128,7 @@ footer {
 }
 
 .aboutCard {
-    display: flex; 
+    display: grid; 
     text-align: left;
     margin: auto;
     width: 75%;
