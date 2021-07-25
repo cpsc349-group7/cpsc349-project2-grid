@@ -9,8 +9,6 @@ html, body {
     font-family: 'Playfair Display', serif;
     background: #F2F2F7;
     color: #444;
-    height: 100%;
-    min-height: 100%;
 }
 
 ol, ul {
@@ -41,7 +39,7 @@ a:hover, a:focus {
     color: #FCAF38;
 }
 article {
-    min-height: 50vh;
+
     margin-bottom: 50px;
 }
 article .margin {
