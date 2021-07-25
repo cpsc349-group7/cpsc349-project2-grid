@@ -145,7 +145,7 @@ footer {
 
 .petContent {
     display: grid;
-    text-align: right;
+    text-align: center;
     height: auto;
     max-width: 30rem;
     object-fit: cover;
@@ -154,8 +154,7 @@ footer {
 
 .infoPadding {
     display: grid;
-    grid-column: 3 / span 2;
-    grid-row: third-line / 4;
+    text-align: right;
     padding-left: 2rem;
 }
 
