@@ -1,46 +1,13 @@
 <!DOCTYPE html>
+
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
         <title>A document with pet photos</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="{{ '/cpsc349-project2-grid/styles/tailwind.css' | url }}">
-        <link rel="stylesheet" href="{{ '/cpsc349-project2-grid/styles/main.css' | url }}">
+        <link rel="stylesheet" href="/cpsc349-project2-grid/styles/tailwind.css">
+        <link rel="stylesheet" href="/cpsc349-project2-grid/styles/main.css">
     </head>
-    <style>
-        :root {
-  --red: {{red}};
-  --green: {{green}};
-  --blue: {{blue}};
-
-  --accessible-color: calc(
-    (
-      (
-        (
-          (var(--red) * 299) +
-          (var(--green) * 587) +
-          (var(--blue) * 114)
-        ) / 1000
-      ) - 128
-    ) * -1000
-  );
-}
-
-.background {
-  color:
-    rgb(
-      var(--accessible-color),
-      var(--accessible-color),
-      var(--accessible-color)
-    );
-  background-color:
-    rgb(
-      var(--red),
-      var(--green),
-      var(--blue)
-    );
-}
-    </style>
     <body class="background">
         <div class="wrapper">    
             <nav>
@@ -67,5 +34,39 @@
         </footer>
         
     </body>
+    <style>
+      :root {
+--red: {{red}};
+--green: {{green}};
+--blue: {{blue}};
+
+--accessible-color: calc(
+  (
+    (
+      (
+        (var(--red) * 299) +
+        (var(--green) * 587) +
+        (var(--blue) * 114)
+      ) / 1000
+    ) - 128
+  ) * -1000
+);
+}
+
+.background {
+color:
+  rgb(
+    var(--accessible-color),
+    var(--accessible-color),
+    var(--accessible-color)
+  );
+background-color:
+  rgb(
+    var(--red),
+    var(--green),
+    var(--blue)
+  );
+}
+  </style>
     
 </html>
