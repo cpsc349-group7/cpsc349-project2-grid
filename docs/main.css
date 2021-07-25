@@ -20,6 +20,12 @@ ol, ul {
     grid-row-end: last-line;
 }
 li {
+    display: grid;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: four;
+    grid-row-start: row1-start;
+    grid-row-end: last-line;
     padding-bottom: 1rem;
 }
 h1 {
