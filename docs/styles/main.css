@@ -120,12 +120,19 @@ footer {
 }
 
 .aboutContent {
+    display: grid;
+    text-align: left;
     padding-top: 4rem;
     padding-right: 4rem;
     padding-left: 4rem;
 }
 
 .aboutCard {
+    display: flex; 
+    grid-column-start: 2;
+    grid-column-end: five;
+    grid-row-start: row2-start;
+    grid-row-end: 4;
     margin: auto;
     width: 40%;
     border: 3px solid black;
