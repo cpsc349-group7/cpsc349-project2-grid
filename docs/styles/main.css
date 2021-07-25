@@ -137,6 +137,7 @@ footer {
 /* ************ */
 
 .petContent {
+    justify-content: flex-end;
     height: auto;
     max-width: 30rem;
     object-fit: cover;
